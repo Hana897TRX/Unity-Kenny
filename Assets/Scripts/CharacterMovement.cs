@@ -7,30 +7,34 @@ public class CharacterMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.W))
         {
-            this.transform.Translate(Vector3.forward * Time.deltaTime);
+            //this.transform.Translate(Vector3.forward * Time.deltaTime);
+            transform.Translate(0.0f, 0f, 0.01f);
         }
 
-        if (Input.GetKey(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.S))
         {
-            this.transform.Translate(Vector3.back * Time.deltaTime);
+            //this.transform.Translate(Vector3.back * Time.deltaTime);
+            transform.Translate(0.0f, 0f, -0.01f);
         }
 
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.A))
         {
-            this.transform.Rotate(Vector3.up, -2);
+            //this.transform.Rotate(Vector3.up, -2); 360 degrees movement
+            transform.Translate(-0.01f, 0f, 0f);
         }
 
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.D))
         {
-            this.transform.Rotate(Vector3.up, 2);
+            //this.transform.Rotate(Vector3.up, 2);
+            transform.Translate(0.01f, 0f, 0f);
         }
     }
 }
