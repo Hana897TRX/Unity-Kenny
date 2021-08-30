@@ -21,17 +21,23 @@ public class SaimonSaysController : MonoBehaviour
             {
                 case 0:
                     {
-                        temp = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                        GameObject objPrefab = Resources.Load("Apple") as GameObject;
+                        //temp = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                        temp = Instantiate(objPrefab) as GameObject;
                         break;
                     }
                 case 1:
                     {
-                        temp = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+                        GameObject objPrefab = Resources.Load("Rock 5") as GameObject;
+                        //temp = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                        temp = Instantiate(objPrefab) as GameObject;
                         break;
                     }
                 default:
                     {
-                        temp = GameObject.CreatePrimitive(PrimitiveType.Capsule);
+                        GameObject objPrefab = Resources.Load("Bottle_05") as GameObject;
+                        //temp = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                        temp = Instantiate(objPrefab) as GameObject;
                         break;
                     }
             }
@@ -59,13 +65,13 @@ public class SaimonSaysController : MonoBehaviour
                     GameObject temp = hit.collider.gameObject;
                     if (int.Parse(temp.name) == count)
                     {
-                        temp.GetComponent<MeshRenderer>().material.color = Color.yellow;
+                        temp.GetComponent<MeshRenderer>().material.color = Color.green;
                         //Destroy(temp, 1);
                         count++;
                     }
                     else
                     {
-                        temp.GetComponent<MeshRenderer>().material.color = Color.red;
+                        temp.GetComponent<MeshRenderer>().material.color = Color.cyan;
                     }
                 }
             }
