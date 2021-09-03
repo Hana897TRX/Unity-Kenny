@@ -16,25 +16,25 @@ public class CharacterMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             //this.transform.Translate(Vector3.forward * Time.deltaTime);
-            transform.Translate(0.0f, 0f, 0.01f);
+            transform.Translate(0.0f, 0f, 0.03f);
         }
 
         if (Input.GetKey(KeyCode.S))
         {
             //this.transform.Translate(Vector3.back * Time.deltaTime);
-            transform.Translate(0.0f, 0f, -0.01f);
+            transform.Translate(0.0f, 0f, -0.03f);
         }
 
         if (Input.GetKey(KeyCode.A))
         {
             //this.transform.Rotate(Vector3.up, -2); 360 degrees movement
-            transform.Translate(-0.01f, 0f, 0f);
+            transform.Translate(-0.03f, 0f, 0f);
         }
 
         if (Input.GetKey(KeyCode.D))
         {
             //this.transform.Rotate(Vector3.up, 2);
-            transform.Translate(0.01f, 0f, 0f);
+            transform.Translate(0.03f, 0f, 0f);
         }
     }
 }
