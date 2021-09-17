@@ -1,6 +1,10 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
+<<<<<<< HEAD
 OS: 'Windows 10 Home Single Language; OS build 22000.184; Version 2009; 64bit' Language: 'en' Physical Memory: 24445 MB
+=======
+OS: 'Windows 10 Home Single Language; OS build 19041.1110; Version 2004; 64bit' Language: 'es' Physical Memory: 12171 MB
+>>>>>>> 68b9a8e8a6005a14db3115c7feba3617c6fe07cc
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,30 +15,39 @@ C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Hana897TRX/Documents/University/Tec/Servicio Social/Nimrod/Proyecto Sakura
+D:/Documents/TEC/Academia/ITC/CONACYT/Reloaded/Unity-Kenny
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 63122
 Successfully changed project path to: C:/Users/Hana897TRX/Documents/University/Tec/Servicio Social/Nimrod/Proyecto Sakura
 C:/Users/Hana897TRX/Documents/University/Tec/Servicio Social/Nimrod/Proyecto Sakura
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 92.43 ms, found 0 plugins.
+=======
+54554
+Successfully changed project path to: D:/Documents/TEC/Academia/ITC/CONACYT/Reloaded/Unity-Kenny
+D:/Documents/TEC/Academia/ITC/CONACYT/Reloaded/Unity-Kenny
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 40.38 ms, found 0 plugins.
+>>>>>>> 68b9a8e8a6005a14db3115c7feba3617c6fe07cc
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Hana897TRX/Documents/University/Tec/Servicio Social/Nimrod/Proyecto Sakura/Assets
+[Subsystems] Discovering subsystems at path D:/Documents/TEC/Academia/ITC/CONACYT/Reloaded/Unity-Kenny/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c60)
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
     Vendor:   
-    VRAM:     6052 MB
-    Driver:   30.0.14.7141
+    VRAM:     1979 MB
+    Driver:   27.21.14.5177
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -81,5 +94,425 @@ Received Import Request.
   artifactKey: Guid(e7768f54d1f39eb449aff729ac8ca838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/New Terrain.asset using Guid(e7768f54d1f39eb449aff729ac8ca838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca81474428db19c9e74688ddbf6494f5') in 0.205417 seconds
   Import took 0.211286 seconds .
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002964 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 40.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.630 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000841 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.311 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.1 MB.
+System memory in use after: 74.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1610.
+Total: 2.188600 ms (FindLiveObjects: 0.142100 ms CreateObjectMapping: 0.041800 ms MarkObjects: 1.926900 ms  DeleteObjects: 0.076400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Assets.index
+  artifactKey: Guid(2469c3e002c3ca942adea25d68019cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets.index using Guid(2469c3e002c3ca942adea25d68019cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d7f998b92652ef133816fdca60e781') in 0.123530 seconds
+  Import took 0.135059 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000802 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.424 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.5 MB.
+System memory in use after: 72.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1612.
+Total: 2.302000 ms (FindLiveObjects: 0.196900 ms CreateObjectMapping: 0.058200 ms MarkObjects: 2.012000 ms  DeleteObjects: 0.032200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000783 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.433 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.5 MB.
+System memory in use after: 72.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1614.
+Total: 2.143400 ms (FindLiveObjects: 0.156500 ms CreateObjectMapping: 0.042000 ms MarkObjects: 1.925200 ms  DeleteObjects: 0.018600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 194.006202 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_01.prefab
+  artifactKey: Guid(ad58b779286d4e940917d38843eed905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_01.prefab using Guid(ad58b779286d4e940917d38843eed905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe967944d495f6e4703bfb67c48dd5f5') in 0.189627 seconds
+  Import took 0.221998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.219403 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_01.prefab
+  artifactKey: Guid(ad58b779286d4e940917d38843eed905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_01.prefab using Guid(ad58b779286d4e940917d38843eed905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470e7206cc7a04b2ed75027abcd3d204') in 0.097690 seconds
+  Import took 0.103789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.415781 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_01.prefab
+  artifactKey: Guid(ad58b779286d4e940917d38843eed905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_01.prefab using Guid(ad58b779286d4e940917d38843eed905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d77755ee8bf1f189e492c3dbe68969b') in 0.041171 seconds
+  Import took 0.046413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.237420 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_01.prefab
+  artifactKey: Guid(ad58b779286d4e940917d38843eed905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_01.prefab using Guid(ad58b779286d4e940917d38843eed905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7dfa8fa681e2c6719c68c99c846a769') in 0.036564 seconds
+  Import took 0.042250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.515327 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_01.prefab
+  artifactKey: Guid(ad58b779286d4e940917d38843eed905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_01.prefab using Guid(ad58b779286d4e940917d38843eed905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49253cf3c9848dba68d506c97dfe18e4') in 0.039151 seconds
+  Import took 0.063658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.826587 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_01.prefab
+  artifactKey: Guid(ad58b779286d4e940917d38843eed905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_01.prefab using Guid(ad58b779286d4e940917d38843eed905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d1e70b0f5b44fa757dc4bea417580a') in 0.033979 seconds
+  Import took 0.039621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.023444 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_01.prefab
+  artifactKey: Guid(ad58b779286d4e940917d38843eed905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_01.prefab using Guid(ad58b779286d4e940917d38843eed905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1cb77d0c93a96c46dc300086728503c') in 0.044303 seconds
+  Import took 0.050046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.508104 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_02.prefab
+  artifactKey: Guid(dc62b04ca9314e141a442d8b837cf3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_02.prefab using Guid(dc62b04ca9314e141a442d8b837cf3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66bf1a5bfe9d278416060ae13c7dc10') in 0.049466 seconds
+  Import took 0.200279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.674100 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_02.prefab
+  artifactKey: Guid(dc62b04ca9314e141a442d8b837cf3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_02.prefab using Guid(dc62b04ca9314e141a442d8b837cf3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bfd0e36f364621a6ff0c1aa75204221') in 0.041477 seconds
+  Import took 0.050818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.371801 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_02.prefab
+  artifactKey: Guid(dc62b04ca9314e141a442d8b837cf3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_02.prefab using Guid(dc62b04ca9314e141a442d8b837cf3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae89e83929faebf3b71c0df45ae3a84f') in 0.038477 seconds
+  Import took 0.044215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.165817 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_02.prefab
+  artifactKey: Guid(dc62b04ca9314e141a442d8b837cf3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_02.prefab using Guid(dc62b04ca9314e141a442d8b837cf3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b2144005d6d3b5810213f13de78626') in 0.036530 seconds
+  Import took 0.061730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.812251 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_02.prefab
+  artifactKey: Guid(dc62b04ca9314e141a442d8b837cf3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_02.prefab using Guid(dc62b04ca9314e141a442d8b837cf3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2946dff97b7ffd49d63354809d690a') in 0.038974 seconds
+  Import took 0.043275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.493006 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_05.prefab
+  artifactKey: Guid(9440f1bf0af363341bff94844da6cdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_05.prefab using Guid(9440f1bf0af363341bff94844da6cdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e117662fad272f791fdf9196feadfcc0') in 0.058771 seconds
+  Import took 0.062791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.863573 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_05.prefab
+  artifactKey: Guid(9440f1bf0af363341bff94844da6cdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_05.prefab using Guid(9440f1bf0af363341bff94844da6cdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb322882cbacee9046f4bbedf872633') in 0.037771 seconds
+  Import took 0.060947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.816930 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_05.prefab
+  artifactKey: Guid(9440f1bf0af363341bff94844da6cdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_05.prefab using Guid(9440f1bf0af363341bff94844da6cdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076757c96e18ad75c52a1644d2d572cb') in 0.029868 seconds
+  Import took 0.033931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.419553 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_05.prefab
+  artifactKey: Guid(9440f1bf0af363341bff94844da6cdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_05.prefab using Guid(9440f1bf0af363341bff94844da6cdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec078522fa8d354bd951e847a0432979') in 0.028057 seconds
+  Import took 0.032533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.711683 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_06.prefab
+  artifactKey: Guid(2c183935dbd8fd1459c08f4207942288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_06.prefab using Guid(2c183935dbd8fd1459c08f4207942288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6380b25bfab88190ec7f887b27fde301') in 0.040470 seconds
+  Import took 0.044908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.589692 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_06.prefab
+  artifactKey: Guid(2c183935dbd8fd1459c08f4207942288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_06.prefab using Guid(2c183935dbd8fd1459c08f4207942288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d5155b372cb18460b2be7eb3806d7b') in 0.027475 seconds
+  Import took 0.032567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.261460 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_06.prefab
+  artifactKey: Guid(2c183935dbd8fd1459c08f4207942288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_06.prefab using Guid(2c183935dbd8fd1459c08f4207942288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2b7add338b1649b3bfd94c5dae826e') in 0.022930 seconds
+  Import took 0.027319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.719504 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_06.prefab
+  artifactKey: Guid(2c183935dbd8fd1459c08f4207942288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_06.prefab using Guid(2c183935dbd8fd1459c08f4207942288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8955539ff82ae63b70d334da085baba') in 0.033946 seconds
+  Import took 0.038665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.349667 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_04.prefab
+  artifactKey: Guid(6ad842359f8b4cb4499d20b63cf07daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_04.prefab using Guid(6ad842359f8b4cb4499d20b63cf07daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee9fad41c26ff1f050d8e261b1769bd') in 0.044487 seconds
+  Import took 0.051046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.911014 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_04.prefab
+  artifactKey: Guid(6ad842359f8b4cb4499d20b63cf07daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_04.prefab using Guid(6ad842359f8b4cb4499d20b63cf07daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639f8d1db4a0136b6f7cf6d444a9de34') in 0.034758 seconds
+  Import took 0.038509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.189153 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_02.prefab
+  artifactKey: Guid(dc62b04ca9314e141a442d8b837cf3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_02.prefab using Guid(dc62b04ca9314e141a442d8b837cf3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532b612559e3b7bd18b1ebce96ad6cb8') in 0.043420 seconds
+  Import took 0.142015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.808546 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_02.prefab
+  artifactKey: Guid(dc62b04ca9314e141a442d8b837cf3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_02.prefab using Guid(dc62b04ca9314e141a442d8b837cf3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3467a9d115516891f9f3181fb57e211b') in 0.052022 seconds
+  Import took 0.078993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.026974 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_01.prefab
+  artifactKey: Guid(ad58b779286d4e940917d38843eed905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_01.prefab using Guid(ad58b779286d4e940917d38843eed905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc19418db9270be3bbba0076ae0854d') in 0.041945 seconds
+  Import took 0.046205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.020060 seconds.
+  path: Assets/Assets/Chunks/Chunk_Forest_01.prefab
+  artifactKey: Guid(ad58b779286d4e940917d38843eed905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chunks/Chunk_Forest_01.prefab using Guid(ad58b779286d4e940917d38843eed905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9adce34f5e04f9cf6c6254a285ff3175') in 0.037463 seconds
+  Import took 0.041591 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000855 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.746 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.0 MB.
+System memory in use after: 76.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1625.
+Total: 3.097200 ms (FindLiveObjects: 0.162400 ms CreateObjectMapping: 0.046000 ms MarkObjects: 2.862500 ms  DeleteObjects: 0.024200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000922 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.239 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.0 MB.
+System memory in use after: 76.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1627.
+Total: 2.040000 ms (FindLiveObjects: 0.146800 ms CreateObjectMapping: 0.043200 ms MarkObjects: 1.832700 ms  DeleteObjects: 0.016100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000870 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.187 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.0 MB.
+System memory in use after: 76.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1629.
+Total: 2.006800 ms (FindLiveObjects: 0.161300 ms CreateObjectMapping: 0.045000 ms MarkObjects: 1.782300 ms  DeleteObjects: 0.017000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000781 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.219 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.0 MB.
+System memory in use after: 76.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1631.
+Total: 1.873200 ms (FindLiveObjects: 0.150200 ms CreateObjectMapping: 0.047900 ms MarkObjects: 1.657000 ms  DeleteObjects: 0.016900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 572.514956 seconds.
+  path: Assets/Assets/Materials/New Material 1.mat
+  artifactKey: Guid(d86ba3b5c97873d4db8b6ee37f95102b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Materials/New Material 1.mat using Guid(d86ba3b5c97873d4db8b6ee37f95102b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e92855582a5023a64afe01b3aa61e78') in 0.114251 seconds
+  Import took 0.122113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.239279 seconds.
+  path: Assets/Assets/Materials/New Physic Material.physicMaterial
+  artifactKey: Guid(3b3d8d8876db84a4ca387550d4ff93e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Materials/New Physic Material.physicMaterial using Guid(3b3d8d8876db84a4ca387550d4ff93e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b53cf5257d014ed5ab4deb9f9cbedb') in 0.018450 seconds
+  Import took 0.037118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004278 seconds.
+  path: Assets/Assets/Materials/New Physic Material.physicMaterial
+  artifactKey: Guid(3b3d8d8876db84a4ca387550d4ff93e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Materials/New Physic Material.physicMaterial using Guid(3b3d8d8876db84a4ca387550d4ff93e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b53cf5257d014ed5ab4deb9f9cbedb') in 0.007427 seconds
+  Import took 0.033466 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001202 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.251 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.2 MB.
+System memory in use after: 76.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1667.
+Total: 2.248900 ms (FindLiveObjects: 0.170800 ms CreateObjectMapping: 0.046100 ms MarkObjects: 2.013300 ms  DeleteObjects: 0.017400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.409583 seconds.
+  path: Assets/Assets/Materials/New Physic Material.physicMaterial
+  artifactKey: Guid(3b3d8d8876db84a4ca387550d4ff93e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Materials/New Physic Material.physicMaterial using Guid(3b3d8d8876db84a4ca387550d4ff93e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd7c3fe3625052d5cd5944c1661cdb2') in 0.023340 seconds
+  Import took 0.026313 seconds .
+>>>>>>> 68b9a8e8a6005a14db3115c7feba3617c6fe07cc
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -1048,7 +1048,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 912941834}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 3b3d8d8876db84a4ca387550d4ff93e3, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1083,7 +1083,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   txtObject: {fileID: 221434951}
-  listObject: []
+  saimon: {fileID: 871623500055760793, guid: b385a38de866afc41a9c2ebf3676749f, type: 3}
+  instanceTimes: 5
+  maxDistance: 1000
 --- !u!1 &961653293
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,22 +1,20 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/Hana897TRX/Documents/University/Tec/Servicio Social/Nimrod/Proyecto
-      Sakura/Packages/manifest.json
+    m_FilePath: D:/Documents/TEC/Academia/ITC/CONACYT/Reloaded/Unity-Kenny/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637648439753664649
-    m_Hash: 967073883
+      ticks: 637659393570321927
+    m_Hash: 3672698818
   m_LockFileStatus:
-    m_FilePath: C:/Users/Hana897TRX/Documents/University/Tec/Servicio Social/Nimrod/Proyecto
-      Sakura/Packages/packages-lock.json
+    m_FilePath: D:/Documents/TEC/Academia/ITC/CONACYT/Reloaded/Unity-Kenny/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637648439753764356
-    m_Hash: 3380693840
+      ticks: 637659393570321927
+    m_Hash: 674684262
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -78,8 +76,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\Hana897TRX\Documents\University\Tec\Servicio Social\Nimrod\Proyecto
-        Sakura\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: D:\Documents\TEC\Academia\ITC\CONACYT\Reloaded\Unity-Kenny\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -186,8 +183,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.5
       source: 1
-      resolvedPath: C:\Users\Hana897TRX\Documents\University\Tec\Servicio Social\Nimrod\Proyecto
-        Sakura\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
+      resolvedPath: D:\Documents\TEC\Academia\ITC\CONACYT\Reloaded\Unity-Kenny\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -264,8 +260,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: C:\Users\Hana897TRX\Documents\University\Tec\Servicio Social\Nimrod\Proyecto
-        Sakura\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: D:\Documents\TEC\Academia\ITC\CONACYT\Reloaded\Unity-Kenny\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -334,8 +329,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.2
       source: 1
-      resolvedPath: C:\Users\Hana897TRX\Documents\University\Tec\Servicio Social\Nimrod\Proyecto
-        Sakura\Library\PackageCache\com.unity.quicksearch@2.0.2
+      resolvedPath: D:\Documents\TEC\Academia\ITC\CONACYT\Reloaded\Unity-Kenny\Library\PackageCache\com.unity.quicksearch@2.0.2
       assetPath: Packages/com.unity.quicksearch
       name: com.unity.quicksearch
       displayName: Quick Search
@@ -536,8 +530,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.20
       source: 1
-      resolvedPath: C:\Users\Hana897TRX\Documents\University\Tec\Servicio Social\Nimrod\Proyecto
-        Sakura\Library\PackageCache\com.unity.test-framework@1.1.20
+      resolvedPath: D:\Documents\TEC\Academia\ITC\CONACYT\Reloaded\Unity-Kenny\Library\PackageCache\com.unity.test-framework@1.1.20
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -631,8 +624,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.1
       source: 1
-      resolvedPath: C:\Users\Hana897TRX\Documents\University\Tec\Servicio Social\Nimrod\Proyecto
-        Sakura\Library\PackageCache\com.unity.textmeshpro@3.0.1
+      resolvedPath: D:\Documents\TEC\Academia\ITC\CONACYT\Reloaded\Unity-Kenny\Library\PackageCache\com.unity.textmeshpro@3.0.1
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -791,8 +783,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.5
       source: 1
-      resolvedPath: C:\Users\Hana897TRX\Documents\University\Tec\Servicio Social\Nimrod\Proyecto
-        Sakura\Library\PackageCache\com.unity.timeline@1.4.5
+      resolvedPath: D:\Documents\TEC\Academia\ITC\CONACYT\Reloaded\Unity-Kenny\Library\PackageCache\com.unity.timeline@1.4.5
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -2749,8 +2740,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: C:\Users\Hana897TRX\Documents\University\Tec\Servicio Social\Nimrod\Proyecto
-        Sakura\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: D:\Documents\TEC\Academia\ITC\CONACYT\Reloaded\Unity-Kenny\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2808,6 +2798,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Users/Hana897TRX/Documents/University/Tec/Servicio Social/Nimrod/Proyecto
-  Sakura/Packages
+m_ProjectPath: D:/Documents/TEC/Academia/ITC/CONACYT/Reloaded/Unity-Kenny/Packages
 m_EditorVersion: 2020.3.9f1 (108be757e447)

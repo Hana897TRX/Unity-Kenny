@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{656FEDCE-17F3-1106-DB0D-B50155F08816}</ProjectGuid>
+    <ProjectGuid>{9535FDFB-E31C-CE4B-C89D-E59A2B87AD79}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -68,8 +68,12 @@
     <Compile Include="Assets\Scripts\EventManager.cs" />
     <Compile Include="Assets\Scenes\Menu\Menu.cs" />
     <Compile Include="Assets\FarlandSkies\Demo\Scripts\Player\SmoothMouseLook.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
     <Compile Include="Assets\GameEngine.cs" />
+=======
+    <Compile Include="Assets\Scripts\EventController.cs" />
+>>>>>>> 68b9a8e8a6005a14db3115c7feba3617c6fe07cc
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Free Low Poly Desert Pack\Materials\Shaders\Vertex_Color_Unlit.shader" />
