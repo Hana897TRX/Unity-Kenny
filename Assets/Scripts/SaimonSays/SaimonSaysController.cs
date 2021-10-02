@@ -31,6 +31,9 @@ public class SaimonSaysController : MonoBehaviour
                         GameObject objPrefab = Resources.Load("Rock 5") as GameObject;
                         //temp = GameObject.CreatePrimitive(PrimitiveType.Cube);
                         temp = Instantiate(objPrefab) as GameObject;
+                        temp.AddComponent<Outline>();
+                        temp.GetComponent<Outline>().OutlineWidth = 10.0F;
+                        temp.GetComponent<Outline>().OutlineMode = Outline.Mode.OutlineAndSilhouette;
                         break;
                     }
                 default:
@@ -49,7 +52,7 @@ public class SaimonSaysController : MonoBehaviour
 
         //Change order objects
         
-        lightSequence();
+        StartCoroutine(lightSequence());
     }
 
     void Update()
@@ -66,12 +69,14 @@ public class SaimonSaysController : MonoBehaviour
                     if (int.Parse(temp.name) == count)
                     {
                         temp.GetComponent<MeshRenderer>().material.color = Color.green;
-                        //Destroy(temp, 1);
+                        temp.GetComponent<Outline>().OutlineColor = Color.green;
+                        Destroy(temp, 1);
                         count++;
                     }
                     else
                     {
                         temp.GetComponent<MeshRenderer>().material.color = Color.cyan;
+                        temp.GetComponent<Outline>().OutlineColor = Color.cyan;
                     }
                 }
             }
@@ -84,11 +89,11 @@ public class SaimonSaysController : MonoBehaviour
         }
     }
 
-    void lightSequence()
+    IEnumerator lightSequence()
     {
+        yield return new WaitForSeconds(2);
         for (int i = 0; i < totalObjects; i++)
         {
-            
             StartCoroutine(ChangeColor(i));
         }
     }
@@ -97,8 +102,11 @@ public class SaimonSaysController : MonoBehaviour
     {
         yield return new WaitForSeconds(i); 
         objects[i].GetComponent<MeshRenderer>().material.color = Color.blue;
-        yield return new WaitForSeconds(i);
+        objects[i].GetComponent<Outline>().OutlineColor = Color.blue;
+        yield return new WaitForSeconds(i + 0.5F);
         objects[i].GetComponent<MeshRenderer>().material.color = Color.white;
+        objects[i].GetComponent<Outline>().OutlineColor = Color.white;
+
     }
 
     void mixIndexes()

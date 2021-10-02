@@ -5,36 +5,45 @@ using UnityEngine;
 public class CharacterMovement : MonoBehaviour
 {
     // Start is called before the first frame update
+
+    Rigidbody rigidbody;
+
     void Start()
     {
-
+        rigidbody = gameObject.GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.W))
+        if (Time.timeScale == 1)
         {
-            //this.transform.Translate(Vector3.forward * Time.deltaTime);
-            transform.Translate(0.0f, 0f, 0.03f);
+            if (Input.GetKey(KeyCode.W))
+            {
+                transform.Translate(0.0f, 0f, 0.035f);
+            }
+
+            if (Input.GetKey(KeyCode.S))
+            {
+                transform.Translate(0.0f, 0f, -0.035f);
+            }
+
+            if (Input.GetKey(KeyCode.A))
+            {
+                transform.Translate(-0.035f, 0f, 0f);
+            }
+
+            if (Input.GetKey(KeyCode.D))
+            {
+                transform.Translate(0.035f, 0f, 0f);
+            }
         }
 
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.Escape))
         {
-            //this.transform.Translate(Vector3.back * Time.deltaTime);
-            transform.Translate(0.0f, 0f, -0.03f);
+            Application.Quit();
         }
 
-        if (Input.GetKey(KeyCode.A))
-        {
-            //this.transform.Rotate(Vector3.up, -2); 360 degrees movement
-            transform.Translate(-0.03f, 0f, 0f);
-        }
-
-        if (Input.GetKey(KeyCode.D))
-        {
-            //this.transform.Rotate(Vector3.up, 2);
-            transform.Translate(0.03f, 0f, 0f);
-        }
+        rigidbody.velocity = Vector3.zero;
     }
 }

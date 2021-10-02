@@ -36,4 +36,10 @@ public class Menu : MonoBehaviour
             yield return null;
         }
     }
+
+    public void CloseGame()
+    {
+        Debug.Log("QUIT");
+        Application.Quit();
+    }
 }

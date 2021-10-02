@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
 
 public class EventManager : MonoBehaviour
 {
@@ -17,62 +17,46 @@ public class EventManager : MonoBehaviour
     float realDistance = 0.0F;
     bool instantiate = false;
     
-    TextMeshProUGUI txt;
+    Text txt;
 
     private void Start()
     {
         kid = GameObject.Find("kid");
         distanceTarget = maxDistance / instanceTimes;
-        txt = txtObject.GetComponent<TextMeshProUGUI>();
-        //StartCoroutine(EventsLoop());
+        txt = txtObject.GetComponent<Text>();
     }
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.W)) { 
-            realDistance += 0.5F * Time.deltaTime; 
-            txt.text = realDistance.ToString("0.0");
-            distance += 0.5F;
-        }
+        if (Time.timeScale == 1)
+        {
+            if (Input.GetKey(KeyCode.W))
+            {
+                realDistance += 0.5F * Time.deltaTime;
+                txt.text = realDistance.ToString("0.0");
+                distance += 0.5F;
+            }
 
-        if (Input.GetKey(KeyCode.S))
-        {
-            realDistance -= 0.5F * Time.deltaTime;
-            txt.text = realDistance.ToString("0.0");
-            distance += 0.5F;
-        }
+            if (Input.GetKey(KeyCode.S))
+            {
+                realDistance -= 0.5F * Time.deltaTime;
+                txt.text = realDistance.ToString("0.0");
+                distance += 0.5F;
+            }
 
-        if (distance > distanceTarget - 5 && distance < distanceTarget + 5 && !instantiate)
-        {
-            GameObject temporal = Instantiate(saimon);
-            temporal.transform.SetParent(kid.transform);
-            temporal.transform.localScale = new Vector3(1, 1, 1);
-            temporal.transform.localPosition = new Vector3(temporal.transform.position.x - 1.78F, temporal.transform.position.y -1.0F, 5);
-            instantiate = true;
-        }
-        else if (distance > distanceTarget)
-        {
-            distance -= distanceTarget;
-        }
-    }
-
-    /*
-    IEnumerator EventsLoop()
-    {
-        while(realDistance < maxDistance)
-        {
             if (distance > distanceTarget - 5 && distance < distanceTarget + 5 && !instantiate)
             {
                 GameObject temporal = Instantiate(saimon);
                 temporal.transform.SetParent(kid.transform);
+                temporal.transform.localScale = new Vector3(1, 1, 1);
+                temporal.transform.localPosition = new Vector3(temporal.transform.position.x - 1.78F, temporal.transform.position.y - 4.0F, 5);
                 instantiate = true;
             }
             else if (distance > distanceTarget)
             {
                 distance -= distanceTarget;
+                instantiate = false;
             }
-            yield return null;
         }
     }
-    */
 }

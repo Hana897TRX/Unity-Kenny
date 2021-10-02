@@ -10,16 +10,21 @@ public class GameEngine : MonoBehaviour
     void Start()
     {
         actualTime = 0;
+        StartCoroutine(GameControll());
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator GameControll()
     {
-        actualTime += Time.deltaTime;
-
-        if(actualTime >= sesionTime)
+        while (true)
         {
-            gameOver.SetActive(true);
+            actualTime += Time.deltaTime;
+
+            if (actualTime >= sesionTime)
+            {
+                gameOver.SetActive(true);
+                Time.timeScale = 0;
+            }
+            yield return null;
         }
     }
 }

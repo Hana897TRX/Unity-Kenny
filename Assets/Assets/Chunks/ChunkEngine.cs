@@ -27,6 +27,11 @@ public class ChunkEngine : MonoBehaviour
             chunksMap.Add(temp);
 
             yield return new WaitForSeconds(2);
+            /*if (chunksMap.Count > 10)
+            {
+                //Destroy(chunksMap[0]);
+                //chunksMap.RemoveAt(0);
+            }*/
             chunk++;
         }
     }
