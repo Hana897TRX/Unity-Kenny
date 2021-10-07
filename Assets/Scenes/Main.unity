@@ -907,6 +907,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be6f061689f66414f88a0d17beca5b27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  kid_fell: {fileID: 21300000, guid: 6360745593a488540be643c8c2643fa9, type: 3}
+  kid_normal: {fileID: 21300000, guid: 6c5c86d2961d44b49bcb64c8202d3326, type: 3}
 --- !u!65 &912941838
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -1246,7 +1246,7 @@ GameObject:
   - component: {fileID: 8036879945674202692}
   - component: {fileID: 8655972482830617016}
   - component: {fileID: 780217285573763420}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1341,7 +1341,7 @@ GameObject:
   - component: {fileID: 7542312244209952717}
   - component: {fileID: 2178786928935999764}
   - component: {fileID: 4109752365320508963}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mixed_Well_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1713,7 +1713,7 @@ GameObject:
   - component: {fileID: 7879711401591014657}
   - component: {fileID: 6570235225196268700}
   - component: {fileID: 5741796199367124033}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stone_3 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2847,7 +2847,7 @@ GameObject:
   - component: {fileID: 5191059898144227661}
   - component: {fileID: 5752876471706312720}
   - component: {fileID: 6816946117425621271}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stone_3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3709,7 +3709,7 @@ GameObject:
   - component: {fileID: 2264423481036198058}
   - component: {fileID: 1977646211797705366}
   - component: {fileID: 1208463423375274918}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vine_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3887,7 +3887,7 @@ GameObject:
   - component: {fileID: 6580829040998746621}
   - component: {fileID: 5619492197703096884}
   - component: {fileID: 2545599427612388679}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stone_3 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4645,7 +4645,7 @@ GameObject:
   - component: {fileID: 7674115992909091854}
   - component: {fileID: 8099844851353477134}
   - component: {fileID: 3001430425593447887}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vine_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

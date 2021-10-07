@@ -32,16 +32,16 @@ public class EventManager : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.W))
             {
-                realDistance += 0.5F * Time.deltaTime;
-                txt.text = realDistance.ToString("0.0");
+                realDistance += 0.5F;
+                txt.text = realDistance.ToString();
                 distance += 0.5F;
             }
 
             if (Input.GetKey(KeyCode.S))
             {
-                realDistance -= 0.5F * Time.deltaTime;
-                txt.text = realDistance.ToString("0.0");
-                distance += 0.5F;
+                realDistance -= 0.5F;
+                txt.text = realDistance.ToString();
+                distance -= 0.5F;
             }
 
             if (distance > distanceTarget - 5 && distance < distanceTarget + 5 && !instantiate)
@@ -56,6 +56,11 @@ public class EventManager : MonoBehaviour
             {
                 distance -= distanceTarget;
                 instantiate = false;
+            }
+
+            if(realDistance >= maxDistance)
+            {
+                Time.timeScale = 0;
             }
         }
     }
