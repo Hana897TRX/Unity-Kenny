@@ -11,11 +11,13 @@ public class CharacterMovement : MonoBehaviour
     SpriteRenderer sr;
     public Sprite kid_fell, kid_normal, SW, SS, SA, SD, SSpace;
     public GameObject keyUI;
+    bool shouldaMove;
 
     void Start()
     {
         rigidbody = gameObject.GetComponent<Rigidbody>();
         sr = gameObject.GetComponent<SpriteRenderer>();
+        shouldaMove = true;
     }
 
     // Update is called once per frame
@@ -26,28 +28,28 @@ public class CharacterMovement : MonoBehaviour
             KeyCode key = KeyCode.None;
             keyUI.GetComponent<Image>().enabled = true;
 
-            if (Input.GetKey(KeyCode.W))
+            if (Input.GetKey(KeyCode.W) && shouldaMove)
             {
                 key = KeyCode.W;
                 keyUI.GetComponent<Image>().sprite = SW;
                 transform.Translate(0.0f, 0f, 0.035f);
             }
 
-            if (Input.GetKey(KeyCode.S))
+            if (Input.GetKey(KeyCode.S) && shouldaMove)
             {
                 key = KeyCode.S;
                 keyUI.GetComponent<Image>().sprite = SS;
                 transform.Translate(0.0f, 0f, -0.035f);
             }
 
-            if (Input.GetKey(KeyCode.A))
+            if (Input.GetKey(KeyCode.A) && shouldaMove)
             {
                 key = KeyCode.A;
                 keyUI.GetComponent<Image>().sprite = SA;
                 transform.Translate(-0.035f, 0f, 0f);
             }
 
-            if (Input.GetKey(KeyCode.D))
+            if (Input.GetKey(KeyCode.D) && shouldaMove)
             {
                 key = KeyCode.D;
                 keyUI.GetComponent<Image>().sprite = SD;
@@ -58,6 +60,7 @@ public class CharacterMovement : MonoBehaviour
                 key = KeyCode.Space;
                 keyUI.GetComponent<Image>().sprite = SSpace;
                 sr.sprite = kid_normal;
+                shouldaMove = true;
             }
             if(key == KeyCode.None)
             {
@@ -78,6 +81,7 @@ public class CharacterMovement : MonoBehaviour
         if(collision.transform.gameObject.layer == 6)
         {
             sr.sprite = kid_fell;
+            shouldaMove = false;
         }
     }
 }

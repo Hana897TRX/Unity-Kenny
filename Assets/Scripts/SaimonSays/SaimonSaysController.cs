@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SaimonSaysController : MonoBehaviour
 {
@@ -32,8 +33,8 @@ public class SaimonSaysController : MonoBehaviour
                         //temp = GameObject.CreatePrimitive(PrimitiveType.Cube);
                         temp = Instantiate(objPrefab) as GameObject;
                         temp.AddComponent<Outline>();
-                        temp.GetComponent<Outline>().OutlineWidth = 10.0F;
-                        temp.GetComponent<Outline>().OutlineMode = Outline.Mode.OutlineAndSilhouette;
+                        //temp.GetComponent<Outline>().OutlineWidth = 10.0F;
+                        //temp.GetComponent<Outline>().OutlineMode = Outline.Mode.OutlineAndSilhouette;
                         break;
                     }
                 default:
@@ -69,14 +70,14 @@ public class SaimonSaysController : MonoBehaviour
                     if (int.Parse(temp.name) == count)
                     {
                         temp.GetComponent<MeshRenderer>().material.color = Color.green;
-                        temp.GetComponent<Outline>().OutlineColor = Color.green;
+                        //temp.GetComponent<Outline>().OutlineColor = Color.green;
                         Destroy(temp, 1);
                         count++;
                     }
                     else
                     {
                         temp.GetComponent<MeshRenderer>().material.color = Color.cyan;
-                        temp.GetComponent<Outline>().OutlineColor = Color.cyan;
+                        //temp.GetComponent<Outline>().OutlineColor = Color.cyan;
                     }
                 }
             }
@@ -102,10 +103,10 @@ public class SaimonSaysController : MonoBehaviour
     {
         yield return new WaitForSeconds(i); 
         objects[i].GetComponent<MeshRenderer>().material.color = Color.blue;
-        objects[i].GetComponent<Outline>().OutlineColor = Color.blue;
+        //objects[i].GetComponent<Outline>().OutlineColor = Color.blue;
         yield return new WaitForSeconds(i + 0.5F);
         objects[i].GetComponent<MeshRenderer>().material.color = Color.white;
-        objects[i].GetComponent<Outline>().OutlineColor = Color.white;
+        //objects[i].GetComponent<Outline>().OutlineColor = Color.white;
 
     }
 

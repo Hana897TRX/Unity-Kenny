@@ -12,6 +12,7 @@ public class ObjectPicker : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("Doing shit");
         objects = new GameObject[totalObjects];
         for (int i = 0; i < totalObjects; i++)
         {

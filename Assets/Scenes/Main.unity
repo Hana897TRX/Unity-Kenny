@@ -908,7 +908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be6f061689f66414f88a0d17beca5b27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kid_fell: {fileID: 21300000, guid: 6360745593a488540be643c8c2643fa9, type: 3}
+  kid_fell: {fileID: 21300000, guid: 56020fd0324f499479ee38e766607677, type: 3}
   kid_normal: {fileID: 21300000, guid: 6c5c86d2961d44b49bcb64c8202d3326, type: 3}
   SW: {fileID: 21300000, guid: 45611956143b272468ff7f60ea3a4b4e, type: 3}
   SS: {fileID: 21300000, guid: adcc5987c3237914d9f25df6b1612761, type: 3}
