@@ -203,8 +203,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2218}
     - Class: 114
-      Script: {instanceID: 2232}
-    - Class: 114
       Script: {instanceID: 2662}
     - Class: 114
       Script: {instanceID: 2704}
@@ -469,7 +467,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: b11680a358f296447084b282c6063aef
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CharacterMovement
@@ -754,5 +752,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Menu/Menu.unity
   - Assets/Scenes/Main.unity
   - Assets/Scenes/Instructions/Instructions.unity
-  playerPath: C:/Users/Hana897TRX/Documents/University/Practicas profesionales/Kenny/v5m/Proyecto
-    Sakura.exe
+  playerPath: D:/Documents/TEC/Academia/ITC/CONACYT/Proyecto Sakura.exe
