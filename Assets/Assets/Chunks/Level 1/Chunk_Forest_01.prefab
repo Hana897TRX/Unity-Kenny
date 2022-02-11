@@ -1341,6 +1341,7 @@ GameObject:
   - component: {fileID: 7542312244209952717}
   - component: {fileID: 2178786928935999764}
   - component: {fileID: 4109752365320508963}
+  - component: {fileID: 291941940199320336}
   m_Layer: 6
   m_Name: Mixed_Well_01
   m_TagString: Untagged
@@ -1411,6 +1412,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &291941940199320336
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2682398339745257897}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.601391
+  m_Height: 3.7066884
+  m_Direction: 1
+  m_Center: {x: 0.047766685, y: 1.8533442, z: 0}
 --- !u!1 &2694560233238944349
 GameObject:
   m_ObjectHideFlags: 0

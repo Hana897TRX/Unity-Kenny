@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 496406}
   - component: {fileID: 3303066}
   - component: {fileID: 2324026}
+  - component: {fileID: 5676842199485448662}
+  - component: {fileID: 2189195522870898330}
+  - component: {fileID: 3517365227527441455}
   m_Layer: 6
   m_Name: Stone_3
   m_TagString: Untagged
@@ -81,3 +84,45 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &5676842199485448662
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.289941
+  m_Height: 1.9819143
+  m_Direction: 1
+  m_Center: {x: 0.09312928, y: 0.12119162, z: 0.026857257}
+--- !u!136 &2189195522870898330
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.2899413
+  m_Height: 1.9819143
+  m_Direction: 1
+  m_Center: {x: 0.0931293, y: 0.12119162, z: 0.026857262}
+--- !u!136 &3517365227527441455
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.289941
+  m_Height: 1.9819143
+  m_Direction: 1
+  m_Center: {x: 0.09312928, y: 0.12119162, z: 0.026857257}
