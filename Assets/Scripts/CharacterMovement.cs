@@ -12,6 +12,8 @@ public class CharacterMovement : MonoBehaviour
     public Sprite kid_fell, kid_normal, SW, SS, SA, SD, SSpace;
     public GameObject keyUI;
     bool shouldaMove;
+    public bool auto;
+    public float speed;
 
     void Start()
     {
@@ -28,14 +30,19 @@ public class CharacterMovement : MonoBehaviour
             KeyCode key = KeyCode.None;
             keyUI.GetComponent<Image>().enabled = true;
 
-            if (Input.GetKey(KeyCode.W) && shouldaMove)
+            if (auto)
+            {
+                transform.Translate(0.0f, 0f, 0.035f*speed);
+            }
+
+            if (Input.GetKey(KeyCode.W) && shouldaMove && !auto)
             {
                 key = KeyCode.W;
                 keyUI.GetComponent<Image>().sprite = SW;
                 transform.Translate(0.0f, 0f, 0.035f);
             }
 
-            if (Input.GetKey(KeyCode.S) && shouldaMove)
+            if (Input.GetKey(KeyCode.S) && shouldaMove && !auto)
             {
                 key = KeyCode.S;
                 keyUI.GetComponent<Image>().sprite = SS;
