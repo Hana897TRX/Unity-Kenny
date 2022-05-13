@@ -14,6 +14,8 @@ public class CharacterMovement : MonoBehaviour
     bool shouldaMove;
     public bool automove;
 
+    public float kidVelocity = 0.015F;
+
     void Start()
     {
         rigidbody = gameObject.GetComponent<Rigidbody>();
@@ -31,35 +33,35 @@ public class CharacterMovement : MonoBehaviour
 
             if (automove)
             {
-                transform.Translate(0.0f, 0f, 0.035f);
+                transform.Translate(0.0f, 0f, kidVelocity);
             }
 
             if (Input.GetKey(KeyCode.W) && shouldaMove)
             {
                 key = KeyCode.W;
                 keyUI.GetComponent<Image>().sprite = SW;
-                transform.Translate(0.0f, 0f, 0.035f);
+                transform.Translate(0.0f, 0f, kidVelocity);
             }
 
             if (Input.GetKey(KeyCode.S) && shouldaMove)
             {
                 key = KeyCode.S;
                 keyUI.GetComponent<Image>().sprite = SS;
-                transform.Translate(0.0f, 0f, -0.035f);
+                transform.Translate(0.0f, 0f, -kidVelocity);
             }
 
             if (Input.GetKey(KeyCode.A) && shouldaMove)
             {
                 key = KeyCode.A;
                 keyUI.GetComponent<Image>().sprite = SA;
-                transform.Translate(-0.035f, 0f, 0f);
+                transform.Translate(-kidVelocity, 0f, 0f);
             }
 
             if (Input.GetKey(KeyCode.D) && shouldaMove)
             {
                 key = KeyCode.D;
                 keyUI.GetComponent<Image>().sprite = SD;
-                transform.Translate(0.035f, 0f, 0f);
+                transform.Translate(kidVelocity, 0f, 0f);
             }
             if(Input.GetKey(KeyCode.Space))
             {

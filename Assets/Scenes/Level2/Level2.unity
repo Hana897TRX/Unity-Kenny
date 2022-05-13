@@ -282,7 +282,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &197471962
 GameObject:
@@ -1068,6 +1068,7 @@ Transform:
   m_LocalScale: {x: 0.3207786, y: 0.3207786, z: 0.3207786}
   m_Children:
   - {fileID: 963194228}
+  - {fileID: 1446363157}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1092,6 +1093,7 @@ MonoBehaviour:
   SSpace: {fileID: 21300000, guid: eeb48f6f65978e040b02e9b0ed49a8e8, type: 3}
   keyUI: {fileID: 1763554333}
   automove: 1
+  kidVelocity: 0.015
 --- !u!65 &912941838
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1587,53 +1589,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1 &1153145733
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1153145735}
-  - component: {fileID: 1153145734}
-  m_Layer: 0
-  m_Name: LettersEngine
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1153145734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153145733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 524ed4e5944218947b8999db3323bb3d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lettersGame: {fileID: 684602163346340630, guid: 08ab5fe3a2620a44e877da5d6b941660, type: 3}
-  spawnTime: 2
-  spawnCount: 3
-  spawnPoint: {fileID: 179502712}
---- !u!4 &1153145735
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153145733}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 440.2, y: 203.6, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1168684181
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1700,6 +1655,68 @@ GameObject:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4749940127516715229, guid: 748ca274b89873247873cee26d353629, type: 3}
   m_PrefabInstance: {fileID: 1168684181}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1446363156
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 912941836}
+    m_Modifications:
+    - target: {fileID: 19829537550255729, guid: 099ea68baf6bba440a094ad2517030d0, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19829537550255729, guid: 099ea68baf6bba440a094ad2517030d0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 440.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 19829537550255729, guid: 099ea68baf6bba440a094ad2517030d0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 203.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 19829537550255729, guid: 099ea68baf6bba440a094ad2517030d0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19829537550255729, guid: 099ea68baf6bba440a094ad2517030d0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19829537550255729, guid: 099ea68baf6bba440a094ad2517030d0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19829537550255729, guid: 099ea68baf6bba440a094ad2517030d0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19829537550255729, guid: 099ea68baf6bba440a094ad2517030d0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19829537550255729, guid: 099ea68baf6bba440a094ad2517030d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19829537550255729, guid: 099ea68baf6bba440a094ad2517030d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19829537550255729, guid: 099ea68baf6bba440a094ad2517030d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8787425603083082156, guid: 099ea68baf6bba440a094ad2517030d0, type: 3}
+      propertyPath: m_Name
+      value: LettersEngine 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 099ea68baf6bba440a094ad2517030d0, type: 3}
+--- !u!4 &1446363157 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 19829537550255729, guid: 099ea68baf6bba440a094ad2517030d0, type: 3}
+  m_PrefabInstance: {fileID: 1446363156}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1585420261
 GameObject:
