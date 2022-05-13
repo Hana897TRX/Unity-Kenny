@@ -8,7 +8,7 @@ public class LettersGame : MonoBehaviour
     public List<GameObject> objectList;
     List<GameObject> objectsReferences = new List<GameObject>();
 
-    float positionProgress = 0.05F;
+    public float velocity = 0.05F;
 
     public float separationX = 0F;
     public float spawnTime = 0.5F;
@@ -56,7 +56,7 @@ public class LettersGame : MonoBehaviour
             for(int i = 0; i < objectsReferences.Count; i++) {
                 objectsReferences[i].transform.position =
                     new Vector3(
-                        objectsReferences[i].transform.position.x + positionProgress,
+                        objectsReferences[i].transform.position.x + velocity,
                         objectsReferences[i].transform.position.y,
                         objectsReferences[i].transform.position.z
                     );

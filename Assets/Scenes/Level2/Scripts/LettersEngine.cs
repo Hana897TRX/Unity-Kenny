@@ -24,13 +24,14 @@ public class LettersEngine : MonoBehaviour
                 new Vector3(spawnPoint.transform.position.x, spawnPoint.transform.position.y, spawnPoint.transform.position.z), 
                 Quaternion.identity
             );
-            yield return new WaitForSeconds(spawnTime);
             temp.transform.parent = gameObject.transform;
             counter++;
             iterator++;
             if(iterator >= lettersGame.Count); {
                 iterator = 0;
             }
+            Debug.Log("Hello");
+            yield return new WaitForSeconds(spawnTime);
         }
     }
 }
