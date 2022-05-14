@@ -6,7 +6,7 @@ public class GameEngine : MonoBehaviour
 {
     public GameObject gameOver;
     public float sesionTime;
-    float actualTime;
+    public float actualTime;
     void Start()
     {
         actualTime = 0;

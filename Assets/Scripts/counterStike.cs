@@ -8,11 +8,16 @@ public class counterStike : MonoBehaviour
     int counter;
     public GameObject doggie, star1, star2, star3;
     public Sprite star, dog1, dog2, dog3;
+    public Sprite dogCongelado, dogClothes;
+    public Image finalResu;
+    public GameObject gameEngine;
+    GameEngine gameEngineScript;
 
     // Start is called before the first frame update
     void Start()
     {
         counter = 0;
+        gameEngineScript = gameEngine.GetComponent<GameEngine>();
     }
 
     // Update is called once per frame
@@ -25,6 +30,17 @@ public class counterStike : MonoBehaviour
             star1.GetComponent<Image>().enabled = true;
             star2.GetComponent<Image>().enabled = true;
             star3.GetComponent<Image>().enabled = true;
+        }
+
+        if(gameEngineScript.actualTime > gameEngineScript.sesionTime)
+        {
+            if(counter == 0)
+            {
+                finalResu.sprite = dogCongelado;
+            } else
+            {
+                finalResu.sprite = dogClothes;
+            }
         }
     }
 
