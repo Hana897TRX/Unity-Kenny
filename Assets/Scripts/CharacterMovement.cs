@@ -29,7 +29,12 @@ public class CharacterMovement : MonoBehaviour
         if (Time.timeScale == 1)
         {
             KeyCode key = KeyCode.None;
-            keyUI.GetComponent<Image>().enabled = true;
+
+            if(keyUI != null)
+            {
+                keyUI.GetComponent<Image>().enabled = true;
+            }
+
 
             if (automove)
             {
