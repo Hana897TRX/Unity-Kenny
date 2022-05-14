@@ -52,9 +52,9 @@ MonoBehaviour:
   - {fileID: 6268310484184676928, guid: 4279f532315a976448d4261bbf53c3bb, type: 3}
   - {fileID: 1980700547641338385, guid: 246102ed66480ba4b812f6518fdc96da, type: 3}
   - {fileID: 6268310484184676928, guid: 4279f532315a976448d4261bbf53c3bb, type: 3}
-  velocity: 0.01
-  separationX: 0
-  spawnTime: 0.5
+  velocity: 0.04
+  separationX: 100
+  spawnTime: 1
 --- !u!1 &3113562310104554104
 GameObject:
   m_ObjectHideFlags: 0

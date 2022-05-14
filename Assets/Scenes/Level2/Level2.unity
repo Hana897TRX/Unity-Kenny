@@ -425,7 +425,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e5c2f42400ac8484b84781e812756c83, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 345f12a1217000c40b079bcc2192d02f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1446,7 +1446,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOver: {fileID: 280760353}
-  sesionTime: 5
+  sesionTime: 900
   actualTime: 0
 --- !u!4 &1585420263
 Transform:
@@ -1756,6 +1756,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1507098960606995066, guid: 29154c6d1773dde4b82e6d705520fb05, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 5169195183678792424, guid: 29154c6d1773dde4b82e6d705520fb05, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1832,5 +1836,13 @@ PrefabInstance:
       propertyPath: gameEngine
       value: 
       objectReference: {fileID: 1585420261}
+    - target: {fileID: 6537437123936427886, guid: 29154c6d1773dde4b82e6d705520fb05, type: 3}
+      propertyPath: delay
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6537437123936427886, guid: 29154c6d1773dde4b82e6d705520fb05, type: 3}
+      propertyPath: spawnTime
+      value: 290
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29154c6d1773dde4b82e6d705520fb05, type: 3}

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8322668303942656946}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: chamarra
   m_TagString: target
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 1168332732973656250}
   - component: {fileID: 191276349465101926}
   - component: {fileID: 2980980814602400040}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}

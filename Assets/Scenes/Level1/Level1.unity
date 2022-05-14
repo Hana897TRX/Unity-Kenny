@@ -928,6 +928,8 @@ MonoBehaviour:
   SD: {fileID: 21300000, guid: ba4c6a3ff4ff8024688687a2dd189010, type: 3}
   SSpace: {fileID: 21300000, guid: eeb48f6f65978e040b02e9b0ed49a8e8, type: 3}
   keyUI: {fileID: 1763554333}
+  automove: 0
+  kidVelocity: 0.015
 --- !u!65 &912941838
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -971,8 +973,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   txtObject: {fileID: 1101473315}
   saimon: {fileID: 871623500055760793, guid: b385a38de866afc41a9c2ebf3676749f, type: 3}
-  instanceTimes: 5
-  maxDistance: 500
+  instanceTimes: 20
+  maxDistance: 3000
 --- !u!1 &961653293
 GameObject:
   m_ObjectHideFlags: 0
@@ -1434,7 +1436,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOver: {fileID: 280760353}
-  sesionTime: 300
+  sesionTime: 900
+  actualTime: 0
 --- !u!4 &1585420263
 Transform:
   m_ObjectHideFlags: 0

@@ -46,17 +46,19 @@ public class counterStike : MonoBehaviour
 
     public void OnCollisionEnter(Collision collision)
     {
-        Destroy(collision.gameObject);
+        
         Debug.Log("collision");
-        Debug.Log(collision.gameObject.tag);
+        Debug.Log(collision.transform.gameObject.layer);
 
-        if (collision.gameObject.tag == "target");
+        if (collision.transform.gameObject.layer == 5)
         {
             counter++;
             Debug.Log("counter changed");
         }
 
-        if(counter == 1)
+        Destroy(collision.gameObject);
+
+        if (counter == 1)
         {
             star1.GetComponent<Image>().sprite = star;
             doggie.GetComponent<Image>().sprite = dog1;
