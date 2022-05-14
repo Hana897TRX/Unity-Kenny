@@ -47,8 +47,10 @@ public class counterStike : MonoBehaviour
     public void OnCollisionEnter(Collision collision)
     {
         Destroy(collision.gameObject);
+        Debug.Log("collision");
+        Debug.Log(collision.gameObject.tag);
 
-        if (collision.gameObject.tag == "target")
+        if (collision.gameObject.CompareTag("target"))
         {
             counter++;
             Debug.Log("counter changed");

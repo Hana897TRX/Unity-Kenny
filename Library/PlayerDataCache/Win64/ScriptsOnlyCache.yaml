@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - EventManager
     - GameEngine
     - LettersEngine
+    - LettersGame
     - Menu
     - ObjectPicker
     - Outline
@@ -101,8 +102,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -112,17 +111,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2266}
     - Class: 114
-      Script: {instanceID: 2680}
+      Script: {instanceID: 2682}
     - Class: 114
-      Script: {instanceID: 2846}
+      Script: {instanceID: 2848}
     - Class: 114
-      Script: {instanceID: 3076}
+      Script: {instanceID: 3078}
     - Class: 114
-      Script: {instanceID: 3382}
+      Script: {instanceID: 3386}
     - Class: 114
-      Script: {instanceID: 3522}
+      Script: {instanceID: 3526}
     - Class: 114
-      Script: {instanceID: 3536}
+      Script: {instanceID: 3540}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -166,8 +165,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -181,23 +178,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2266}
     - Class: 114
-      Script: {instanceID: 2436}
+      Script: {instanceID: 2438}
     - Class: 114
-      Script: {instanceID: 2588}
+      Script: {instanceID: 2590}
     - Class: 114
-      Script: {instanceID: 2668}
+      Script: {instanceID: 2670}
     - Class: 114
-      Script: {instanceID: 2680}
+      Script: {instanceID: 2682}
     - Class: 114
-      Script: {instanceID: 2846}
+      Script: {instanceID: 2848}
     - Class: 114
-      Script: {instanceID: 2928}
+      Script: {instanceID: 2930}
     - Class: 114
-      Script: {instanceID: 3076}
+      Script: {instanceID: 3078}
     - Class: 114
-      Script: {instanceID: 3340}
+      Script: {instanceID: 3342}
     - Class: 114
-      Script: {instanceID: 3382}
+      Script: {instanceID: 3386}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -251,8 +248,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
     - Class: 91
@@ -274,27 +269,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2266}
     - Class: 114
-      Script: {instanceID: 2436}
+      Script: {instanceID: 2350}
     - Class: 114
-      Script: {instanceID: 2588}
+      Script: {instanceID: 2438}
     - Class: 114
-      Script: {instanceID: 2668}
+      Script: {instanceID: 2590}
     - Class: 114
-      Script: {instanceID: 2680}
+      Script: {instanceID: 2670}
     - Class: 114
-      Script: {instanceID: 2846}
+      Script: {instanceID: 2682}
     - Class: 114
-      Script: {instanceID: 2928}
+      Script: {instanceID: 2848}
     - Class: 114
-      Script: {instanceID: 3076}
+      Script: {instanceID: 2930}
     - Class: 114
-      Script: {instanceID: 3340}
+      Script: {instanceID: 3078}
     - Class: 114
-      Script: {instanceID: 3382}
+      Script: {instanceID: 3336}
     - Class: 114
-      Script: {instanceID: 3648}
+      Script: {instanceID: 3342}
     - Class: 114
-      Script: {instanceID: 29480}
+      Script: {instanceID: 3386}
+    - Class: 114
+      Script: {instanceID: 3652}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -348,8 +345,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -363,21 +358,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2252}
     - Class: 114
-      Script: {instanceID: 2680}
+      Script: {instanceID: 2682}
     - Class: 114
-      Script: {instanceID: 2720}
+      Script: {instanceID: 2722}
     - Class: 114
-      Script: {instanceID: 2846}
+      Script: {instanceID: 2848}
     - Class: 114
-      Script: {instanceID: 3052}
+      Script: {instanceID: 3054}
     - Class: 114
-      Script: {instanceID: 3076}
+      Script: {instanceID: 3078}
     - Class: 114
-      Script: {instanceID: 3382}
+      Script: {instanceID: 3386}
     - Class: 114
-      Script: {instanceID: 3522}
+      Script: {instanceID: 3526}
     - Class: 114
-      Script: {instanceID: 3536}
+      Script: {instanceID: 3540}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -411,8 +406,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -420,17 +413,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1518}
     - Class: 114
-      Script: {instanceID: 2680}
+      Script: {instanceID: 2682}
     - Class: 114
-      Script: {instanceID: 2846}
+      Script: {instanceID: 2848}
     - Class: 114
-      Script: {instanceID: 3076}
+      Script: {instanceID: 3078}
     - Class: 114
-      Script: {instanceID: 3382}
+      Script: {instanceID: 3386}
     - Class: 114
-      Script: {instanceID: 3522}
+      Script: {instanceID: 3526}
     - Class: 114
-      Script: {instanceID: 3536}
+      Script: {instanceID: 3540}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -646,10 +639,10 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
-      Hash: dcc4cced8c0e38fd123fc85ae93e0fa3
+      Hash: 4fda0927bd499f7f501927ed8b675d38
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: LettersEngine
+    className: LettersGame
   - hash:
       serializedVersion: 2
       Hash: 800c50acba124432abb4cf0d47202e06
@@ -682,6 +675,12 @@ ScriptsOnlyBuild:
     className: PlaymodeTestsController
   - hash:
       serializedVersion: 2
+      Hash: 3bd0c19a201a5ddb34212ec951c82213
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: counterStike
+  - hash:
+      serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -694,7 +693,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: 1d8181fe8d7c0d375805053446f029e2
+      Hash: f031242981a47fbea5c3006c283dff16
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CharacterMovement
@@ -742,7 +741,7 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
-      Hash: c9eddcb4561c9ef34a82caf60f032d40
+      Hash: 0ac692dd05e4ac70cd0f38bbf076f8bf
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameEngine
@@ -880,6 +879,12 @@ ScriptsOnlyBuild:
     className: SkyboxChanger
   - hash:
       serializedVersion: 2
+      Hash: 6f6af651382c341bdd53d61f0d843d34
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LettersEngine
+  - hash:
+      serializedVersion: 2
       Hash: e4e9e90e1be5c608995e7defa428ad2e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -980,12 +985,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ChestDemo
-  - hash:
-      serializedVersion: 2
-      Hash: b356f1d709d0dcde56842269e959557f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: counterStike
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menu/Menu.unity
